@@ -58,8 +58,65 @@ public class Main {
 
         boolean isAlien = false;
         //if (! isAlien) // also works with !
-        if (isAlien == false)
+        if (isAlien == false) {
             System.out.println("It is not an alien");
+            System.out.println("I am scared of aliens");
+        } // used a code block here so both print statements will execute when if test passes
+
+        int topScore = 100;
+        if (topScore != 100) {
+            System.out.println("You got the top score!");
+        }
+        System.out.println("You did not get the top score!");
+
+
+        int newTopScore = 80;
+        if (newTopScore <= 100) {
+            System.out.println("You got the new Top Score and it is less than 100!");
+        }
+        if (topScore > newTopScore && topScore < 101) {
+            System.out.println("Top Score is greater than new Top Score and less than 100");
+        }
+
+        if ((topScore > 50) || (newTopScore  > 100)) {
+            System.out.println("Either one or both of the conditions are true");
+        }
+
+        boolean isCar = false;
+        if (isCar = true) {
+            System.out.println("This is not supposed to happen");
+        }
+
+        /**
+         *  == Ternery operators ==
+         *     ( short for if-than-else statement)
+         */
+
+        int ageOfClient = 21;
+        boolean isOverEighteen = ageOfClient >= 18 ? true:false; // condition is (ageOfClient >= 18) and assigns true if condition is true or else false
+        if (isOverEighteen)
+            System.out.println("Over 18 is true");
+
+
+        /**
+         * Challenge
+         */
+
+        System.out.println("================ Challenge =======================================");
+        double firstValue = 20.00d;
+        double secondValue = 80.00d;
+        double thirdValue = (firstValue + secondValue) * 100.00d;
+        System.out.println("ThirdValue = " + thirdValue);
+        double myRemander = thirdValue % 40.00d;
+        boolean myBool = myRemander == 0 ? true:false;
+        System.out.println("The value if myBool is true if myRemander = 0.0, and myRemander = " + myRemander);
+        System.out.println("myBoole = " + myBool);
+        if (! myBool) {
+            System.out.println("Got some remainder");
+        } else {
+            System.out.println("Did not get a remainder");
+        }
+
 
 
 
