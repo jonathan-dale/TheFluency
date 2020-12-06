@@ -1,12 +1,17 @@
 public class TernaryOperatorExample {
+
+
 /*
-The ? operator is used to replace if-else statements...
+Using a terranry operator will allow the code to be shorter. 
+
+Instead of this: 
+
     if (condition)
         var = expression1;
     else
       var = expression2;
 
-That ^^ is replaced by using the ternary operator
+That all is replaced by using the ternary operator
     condition ? expression1 : expression2
 
  */
@@ -21,9 +26,9 @@ public static void main(String[] args) {
         }
     }
 }
-/* The output should look like this
 
-➜ jonathandale@ip-192-168-1-152  ~/tmp  java TernaryOperatorExample
+
+/* The output should look like this
 100 / -5 is -20
 100 / -4 is -25
 100 / -3 is -33

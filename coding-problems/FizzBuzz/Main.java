@@ -20,7 +20,7 @@ public class Main {
                 System.out.println("fizz");
 
             }
-            else if (i % 5 ==0) {
+            else if (i % 5 == 0) {
                 System.out.println("buzz");
 
             }
